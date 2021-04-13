@@ -49,4 +49,6 @@ UI components, like headers, dashboards were created to avoid code duplication. 
 
 ## Run the project
 
-
+```
+yarn && yarn dev
+```
