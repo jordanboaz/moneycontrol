@@ -33,7 +33,7 @@ createServer({
           title: 'Doordash',
           type: 'withdraw',
           category: 'restaurant',
-          value: 22000,
+          value: 50,
           createdAt: new Date('2021-02-23 00:00:00')
         }
       ]
