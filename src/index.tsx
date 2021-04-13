@@ -7,6 +7,12 @@ createServer({
   routes() {
     this.namespace = 'api';
 
+    this.post('/transactions', (schema, request) => {
+      const data = JSON.parse(request.requestBody);
+
+      return data;
+    })
+
     this.get('/transactions', () => {
       return [
         {
@@ -19,6 +25,8 @@ createServer({
         }
       ]
     })
+
+
   }
 })
 
