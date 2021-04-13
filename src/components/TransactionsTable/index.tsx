@@ -3,7 +3,7 @@ import { Container } from './styles'
 import { api } from '../../services/api'
 export function TransactionsTable() {
   useEffect(() => {
-    api.get('/api/transactions')
+    api.get('/transactions')
   }, [])
   return (
     <Container>
